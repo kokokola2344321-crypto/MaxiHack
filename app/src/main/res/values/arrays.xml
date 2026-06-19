@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_attacks">
+        <item>Beacon Spam</item>
+        <item>Target Deauth</item>
+        <item>Deauth Flood</item>
+        <item>Evil Portal</item>
+    </string-array>
+    <string-array name="ble_attacks">
+        <item>BLE Scan</item>
+        <item>Bad BLE</item>
+        <item>iOS Spam</item>
+        <item>Windows Spam</item>
+        <item>Samsung Spam</item>
+        <item>Android Spam</item>
+        <item>Spam All</item>
+    </string-array>
+    <string-array name="rf_attacks">
+        <item>Scan / Copy</item>
+        <item>Spectrum</item>
+        <item>Jammer</item>
+        <item>Replay</item>
+    </string-array>
+    <string-array name="rfid_attacks">
+        <item>Read Tag</item>
+        <item>Clone Tag</item>
+        <item>Write NDEF</item>
+        <item>Emulate Tag</item>
+    </string-array>
+    <string-array name="ir_attacks">
+        <item>TV-B-Gone</item>
+        <item>IR Receiver</item>
+        <item>Custom IR</item>
+    </string-array>
+    <string-array name="nrf24_attacks">
+        <item>NRF24 Jammer</item>
+        <item>2.4G Spectrum</item>
+    </string-array>
+</resources>
+</write_to_file>

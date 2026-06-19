@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_wifi"
+            android:icon="@drawable/ic_wifi"
+            android:title="@string/wifi" />
+        <item
+            android:id="@+id/nav_ble"
+            android:icon="@drawable/ic_bluetooth"
+            android:title="@string/ble" />
+        <item
+            android:id="@+id/nav_rf"
+            android:icon="@drawable/ic_rf"
+            android:title="@string/rf" />
+        <item
+            android:id="@+id/nav_rfid"
+            android:icon="@drawable/ic_rfid"
+            android:title="@string/rfid" />
+        <item
+            android:id="@+id/nav_ir"
+            android:icon="@drawable/ic_ir"
+            android:title="@string/ir" />
+        <item
+            android:id="@+id/nav_fm"
+            android:icon="@drawable/ic_fm"
+            android:title="@string/fm" />
+        <item
+            android:id="@+id/nav_nrf24"
+            android:icon="@drawable/ic_nrf"
+            android:title="@string/nrf24" />
+        <item
+            android:id="@+id/nav_scripts"
+            android:icon="@drawable/ic_script"
+            android:title="@string/scripts" />
+        <item
+            android:id="@+id/nav_others"
+            android:icon="@drawable/ic_others"
+            android:title="@string/others" />
+        <item
+            android:id="@+id/nav_clock"
+            android:icon="@drawable/ic_clock"
+            android:title="@string/clock" />
+        <item
+            android:id="@+id/nav_connect"
+            android:icon="@drawable/ic_connect"
+            android:title="@string/connect" />
+        <item
+            android:id="@+id/nav_config"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/config" />
+    </group>
+
+</menu>
+</write_to_file>

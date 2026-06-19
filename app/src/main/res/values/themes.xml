@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Bruce" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF0D0D0D</item>
+        <item name="colorPrimaryVariant">#FF000000</item>
+        <item name="colorOnPrimary">#FFFF1744</item>
+        <item name="colorSecondary">#FFFF1744</item>
+        <item name="colorSecondaryVariant">#FFD50000</item>
+        <item name="colorOnSecondary">#FFFFFFFF</item>
+        <item name="colorSurface">#FF1A1A1A</item>
+        <item name="android:statusBarColor">#FF000000</item>
+        <item name="android:navigationBarColor">#FF000000</item>
+        <item name="android:windowBackground">#FF0D0D0D</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFF1744</item>
+    </style>
+
+    <style name="NavTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">#FF1A1A1A</item>
+        <item name="colorPrimary">#FF0D0D0D</item>
+    </style>
+
+    <style name="StatusText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">#FF9E9E9E</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="AttackSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/bg_spinner</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+</resources>
+</write_to_file>
